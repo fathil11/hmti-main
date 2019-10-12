@@ -5,8 +5,8 @@
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon-->
-    <link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon" />
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}" type="image/x-icon" />
+    <link rel="icon" href="{{ asset('img/favicon.png') + "?v1"}}" type="image/x-icon" />
+    <link rel="shortcut icon" href="{{ asset('img/favicon.png') + "?v1"}}" type="image/x-icon" />
     <!-- Author Meta -->
     <meta name="author" content="">
     <!-- Meta Description -->
