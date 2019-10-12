@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::post('hubungi-kami', function () {
-    return abort(404);
+    return view('errors.construction');
 });
