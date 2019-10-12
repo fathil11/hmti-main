@@ -361,7 +361,9 @@
                     <h1 class="text-center mb-5" data-aos="fade-up">Hubungi Kami</h1>
                 </div>
                 <div class="col-lg-12">
-                    <form id="contact-form" action="#" autocomplete="off" data-aos="fade-up" data-aos-delay="300">
+                    <form id="contact-form" action="{{ url('hubungi-kami') }}" autocomplete="off" data-aos="fade-up"
+                        data-aos-delay="300" method="POST">
+                        @csrf
                         <div class="row contact-form-wrap justify-content-center">
                             <div class="col-md-6 contact-name form-col">
                                 <input name="name" id="name" class="form-control" type="text"
