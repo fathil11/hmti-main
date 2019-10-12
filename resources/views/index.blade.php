@@ -20,14 +20,14 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700" rel="stylesheet">
 
     <!--CSS-->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/themify-icons.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/aos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 </head>
 
 <body>
@@ -41,9 +41,9 @@
                     <nav class="dope-navbar justify-content-between" id="dopeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="index.html">
+                        <a class="nav-brand" href="{{ url('/') }}">
                             <!-- <h1 class="text-white display-4">HMTI</h1> -->
-                            <img src="img/logo/top.gif" alt="">
+                            <img src="{{ asset('img/logo/top.gif') }}" alt="">
                         </a>
 
                         <!-- Navbar Toggler -->
@@ -77,11 +77,6 @@
                                     </li>
                                     <li>
                                         <a href="#bidang">Bidang</a>
-                                        <ul class="dropdown">
-                                            <li><a href="#bidang">IPTEK</a></li>
-                                            <li><a href="#bidang">LITBANG</a></li>
-                                            <li><a href="#bidang">INFOKOM</a></li>
-                                        </ul>
                                     </li>
                                     <li>
                                         <a href="#event">Event</a>
@@ -116,7 +111,7 @@
                         and practical in campus</h3>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="700" class="col-md-6 banner-right text-center">
-                    <img class="img-fluid" src="img/banner_img.png" alt="">
+                    <img class="img-fluid" src="{{ asset('img/banner_img.png') }}" alt="Gambar Banner">
                 </div>
             </div>
         </div>
@@ -144,7 +139,7 @@
                 <div class="col-lg-6 col-md-12 about-left">
                     <div data-aos="fade-up" class="embed-responsive embed-responsive-16by9">
                         <video playsinline muted autoplay="autoplay" loop controlslist="nodownload">
-                            <source src="paa.mp4" type="video/mp4" />
+                            <source src="{{ asset('video/event/paa/paa.mp4') }}" type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -156,7 +151,7 @@
                         Aktif, kegiatan ini bertujuan untuk
                         memberdayakan dan mengembangkan mahasiswa Teknik Informatika Udinus menjadi mahasiswa yang aktif
                         dan berpengalaman dalam berorganisasi.Oleh karena itu, Pembekalan Anggota Aktif tahun ini
-                        mengangkat tema "Develop Our Career".
+                        mengangkat tema "Opportunity, Developing, Achieving Goals".
                     </p>
 
                 </div>
@@ -238,7 +233,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/paa.png" alt="">
+                                    <img src="{{ asset('img/events/paa.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>PAA</h4>
@@ -249,7 +244,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/itc.png" alt="">
+                                    <img src="{{ asset('img/events/itc.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>ITC</h4>
@@ -260,7 +255,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/hitech.png" alt="">
+                                    <img src="{{ asset('img/events/hitech.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>Hi Tech</h4>
@@ -271,7 +266,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/semnasti.png" alt="">
+                                    <img src="{{ asset('img/events/semnasti.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>SEMNASTI</h4>
@@ -283,7 +278,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/cja.png" alt="">
+                                    <img src="{{ asset('img/events/cja.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>Code Jam Academy</h4>
@@ -294,7 +289,7 @@
                         <div class="single-testimonial item">
                             <div class="user-details d-flex flex-row align-items-center">
                                 <div class="img-wrap">
-                                    <img src="img/events/cl.png" alt="">
+                                    <img src="{{ asset('img/events/cl.png') }}" alt="">
                                 </div>
                                 <div class="details">
                                     <h4>Creative Labs</h4>
@@ -317,21 +312,21 @@
                     <h1 class="text-center mb-5" data-aos="fade-up">Pengurus Harian HMTI</h1>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-fluid p-5" src="img/pengurus/fathil.png" alt="" data-aos="fade-up"
+                    <img class="img-fluid p-5" src="{{ asset('img/pengurus/fathil.png') }}" alt="" data-aos="fade-up"
                         data-aos-delay="300">
                     <h2 class="text-center" data-aos="fade-up" data-aos-delay="600">Fathil Arham</h2>
                     <p class="text-center text-black text-biggers mb-5" data-aos="fade-up" data-aos-delay="600">Ketua
                         Umum</p>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-fluid p-5" src="img/pengurus/hesti.png" alt="" data-aos="fade-up"
+                    <img class="img-fluid p-5" src="{{ asset('img/pengurus/hesti.png') }}" alt="" data-aos="fade-up"
                         data-aos-delay="900">
                     <h2 class="text-center" data-aos="fade-up" data-aos-delay="1200">Hesti Putri W</h2>
                     <p class="text-center text-black text-biggers mb-5" data-aos="fade-up" data-aos-delay="1200">
                         Sekretaris Umum</p>
                 </div>
                 <div class="col-lg-4">
-                    <img class="img-fluid p-5" src="img/pengurus/lisa.png" alt="" data-aos="fade-up"
+                    <img class="img-fluid p-5" src="{{ asset('img/pengurus/lisa.png') }}" alt="" data-aos="fade-up"
                         data-aos-delay="1500">
                     <h2 class="text-center" data-aos="fade-up" data-aos-delay="1800">Lisa Aryanti</h2>
                     <p class="text-center text-black text-biggers mb-5" data-aos="fade-up" data-aos-delay="1800">
@@ -382,11 +377,12 @@
                     <h1 class="text-center" data-aos="fade-up">Bekerja Sama Dengan</h1>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="img/brand/google.png" alt="" data-aos="fade-up" data-aos-delay="300">
+                    <img class="img-fluid" src="{{ asset('img/brand/google.png') }}" alt="" data-aos="fade-up"
+                        data-aos-delay="300">
                 </div>
                 <div class="col-lg-6 d-flex flex-wrap align-items-center">
-                    <img class="img-fluid" height="50px" src="img/brand/dsc_logo.png" alt="" data-aos="fade-up"
-                        data-aos-delay="600">
+                    <img class="img-fluid" height="50px" src="{{ asset('img/brand/dsc_logo.png') }}" alt=""
+                        data-aos="fade-up" data-aos-delay="600">
                 </div>
             </div>
         </div>
@@ -399,10 +395,10 @@
             <div class="row align-items-center">
                 <div class="col-lg-5 footer-left">
                     <a href="#">
-                        <img src="img/logo/bottom.gif" alt="">
+                        <img src="{{ asset('img/logo/bottom.gif') }}" alt="">
                     </a>
                     <p class="copyright-text">&copy; 2019 Made By
-                        <a href="http://dopetheme.com" target="_blank">Project Labs HMTI</a>
+                        <a href="https://hmtiudinus.org" target="_blank">Project Labs HMTI</a>
                     </p>
                 </div>
                 <div class="col-lg-7">
@@ -441,18 +437,18 @@
     <!--
 JS
 ============================================= -->
-    <script src="js/vendor/jquery-2.2.4.min.js"></script>
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/jquery.parallax-scroll.js"></script>
-    <script src="js/dopeNav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="{{ asset('js/vendor/jquery-2.2.4.min.js') }}"></script>
+    <script src="{{ asset('js/vendor/popper.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.easing.1.3.js') }}"></script>
+    <script src="{{ asset('js/vendor/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.parallax-scroll.js') }}"></script>
+    <script src="{{ asset('js/dopeNav.js') }}"></script>
+    <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('js/waypoints.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.stellar.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+    <script src="{{ asset('js/aos.js') }}"></script>
     <script>
         AOS.init({
             duration: 800,
