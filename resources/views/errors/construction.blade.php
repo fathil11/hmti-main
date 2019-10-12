@@ -34,11 +34,11 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-lg-12">
-                <h1>Ups, the page is under construction ;)</h1>
+            <div class="col-lg-12 mt-3">
+                <h1 class="text-center mt-5">Ups, the page is under construction ;)</h1>
             </div>
-            <div class="col-lg-12">
-                <img class="img-fluid" src="{{ asset('img/construction.png') }}" alt="">
+            <div class="col-lg-12 mt-5 p-5">
+                <img class="img-fluid p-5" src="{{ asset('img/construction.png') }}" alt="">
             </div>
         </div>
     </div>
