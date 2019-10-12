@@ -38,7 +38,7 @@
                 <h1 class="text-center mt-5">Ups, the page is under construction ;)</h1>
             </div>
             <div class="col-lg-12 mt-5 p-5">
-                <img class="img-fluid p-5" src="{{ asset('img/construction.png') }}" alt="">
+                <img class="img-fluid mx-auto d-block p-5" src="{{ asset('img/construction.png') }}" alt="">
             </div>
         </div>
     </div>
