@@ -359,7 +359,7 @@
                                 <textarea name="comment" id="comment" class="form-control" rows="4"
                                     placeholder="Isi pesannya ..."></textarea>
                             </div>
-                            <input type="submit" class="primary-btn" value="Kirim Masukan" id="submit-message">
+                            <button class="primary-btn" type="submit">Kirim Masukan</button>
                             <div id="msg" class="message"></div>
                         </div>
                     </form>
