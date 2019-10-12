@@ -121,10 +121,7 @@
                     <h1 data-aos="fade-up">Himpunan
                         Mahasiswa <br>Teknik Informatika</h1>
                     <h3 data-aos="fade-down" data-aos-delay="300" class="text-transpert mt-5">
-                        Bridging
-                        the
-                        gap between theory
-                        and practical in campus</h3>
+                        Develop Our Carrier</h3>
                 </div>
                 <div data-aos="fade-up" data-aos-delay="700" class="col-md-6 banner-right text-center">
                     <img class="img-fluid" src="{{ asset('img/banner_img.png') }}" alt="Gambar Banner">
