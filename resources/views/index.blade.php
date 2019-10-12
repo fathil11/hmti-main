@@ -20,7 +20,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('img/favicon.png') }}">
     <link rel="manifest" href="{{ asset('img/favicon/manifest.json') }}">
     {{-- <meta name="msapplication-TileColor" content="#ffffff"> --}}
-    <meta name="msapplication-TileImage" content="{{ asset('img/favicon/ms-icon-144x144.png') }}">
+    <meta name="msapplication-TileImage" content="{{ asset('img/favicon.png') }}">
     {{-- <meta name="theme-color" content="#ffffff"> --}}
     <!-- Author Meta -->
     <meta name="author" content="">
